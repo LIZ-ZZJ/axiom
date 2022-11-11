@@ -1,0 +1,83 @@
+@define jheight 108
+
+:downward_move_op50_line
+    name=fade,from=0,to=50,atime=(-1000,0)
+    name=movey,from=150%,to=50%,atime=(-1000,0)
+
+:upward_move_op25_line
+    name=fade,from=0,to=25,atime=(-1000,0)
+    name=movey,from=-50%,to=50%,atime=(-1000,0)
+
+:op30_background
+    name=fade,from=0,to=30,atime=(-1000,0)
+
+:upward_move_op100_judgeline
+    name=fade,from=30,to=100,atime=(-1000,0)
+    name=movey,from=50,to={jheight},atime=(-1000,0)
+
+:upward_move_op100_judgeline_slide
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=-{jheight},to=0,atime=(-1000,0)
+
+:upward_move_op60_background2
+    name=fade,from=30,to=60,atime=(-1000,0)
+    name=movey,from=50,to={jheight},atime=(-1000,0)
+
+:upward_move_op60_background2_slide
+    name=fade,from=0,to=60,atime=(-1000,0)
+    name=movey,from=-{jheight},to=0,atime=(-1000,0)
+
+:downward_move_op100_pause
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=746,to=694,atime=(-1000,0)
+
+:downward_move_op100_pause_slide
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=746-{jheight},to=694-{jheight},atime=(-1000,0)
+
+:rightward_move_op100_name
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movex,from=20-200,to=20,atime=(-1000,0)
+
+:rightward_move_op100_songname
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movex,from=33-200,to=33,atime=(-1000,0)
+
+:leftward_move_op100_diff
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movex,from=100%-33+200,to=100%-33,atime=(-1000,0)
+
+:downward_move_op100_combo
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=840,to=640,atime=(-1000,0)
+
+:downward_move_op100_combo_slide
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=865-{jheight},to=665-{jheight},atime=(-1000,0)
+
+:downward_move_op100_score_combo
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=905,to=705,atime=(-1000,0)
+
+:downward_move_op100_score_combo_slide
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=905-{jheight},to=705-{jheight},atime=(-1000,0)
+
+:leftward_move_op100_score_acc
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movex,from=100%-23+200,to=100%-23,atime=(-1000,0)
+
+:leftward_move_op100_score_hp
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movex,from=100%-32+80,to=100%-32,atime=(-1000,0)
+
+:rightward_move_op100_progress
+    name=movex,from=-100,to=0,atime=(-1000,0)
+    name=fade,from=0,to=100,atime=(-1000,0)
+
+:downward_move_op100_max_combo
+    name=fade,from=0,to=100,atime=(-1000,0)
+    name=movey,from=862,to=662,atime=(-1000,0)
+
+:show_press
+    name=fade,from=0,to=50,atime=(-1,0)

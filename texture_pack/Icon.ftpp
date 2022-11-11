@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+  "images": [
+    {
+      "name": "Icon-1.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/Icon/Icon-1.png",
+      "folder": ""
+    },
+    {
+      "name": "Icon-2.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/Icon/Icon-2.png",
+      "folder": ""
+    },
+    {
+      "name": "Icon-3.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/Icon/Icon-3.png",
+      "folder": ""
+    },
+    {
+      "name": "Icon-4.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/Icon/Icon-4.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "Icon",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": true,
+    "tinifyKey": "0l5xWNcBWV6gNQxWdXmYXpZspMxhWgVB",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+    "width": 1020,
+    "height": 2040,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 10,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

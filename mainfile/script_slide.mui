@@ -1,0 +1,58 @@
+@include slidebase.mui
+
+@define space 500
+
+@if <1.8
+@define space 280
+@endif
+
+@if <1.5
+@define space 240
+@endif
+
+
+_divideline-[1-2]
+	type=2
+	color=#ffffff
+	opacity=50
+	size=2.5,100%
+	anchor=4
+	zindex=2
+	pos=10%$80%,150%
+	motion=downward_move_op50_line
+
+judge
+	type=3
+	frame=axiom-perfect/1-30
+	frame2=axiom-good/1-30
+	frame3=axiom-fail/1-30
+	frame4=axiom-none/1-3
+	interval=16.67
+	anchor=4
+	zindex=150
+	opacity=100
+
+note-[1-3]
+	toggle=1+2
+	pos=0,100%
+	pos2=0,0
+
+note-1
+	tex=tap.png
+	part=30,224px
+	size=190,20
+note-2
+	tex=drag.png
+	part=30,224px
+	size=190,20
+note-3
+	tex=hold.png
+
+hit-[1-3]
+	frame=axiom-perfect/1-30
+	interval=16.67
+	opacity=100
+	size={space},{space}
+	zindex=150
+hit-3
+	toggle=1

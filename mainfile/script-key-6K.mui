@@ -1,0 +1,111 @@
+@define space 149
+@define halfs 74.5
+@define notex 119.2
+@define notey 29.8
+@define holdhitspace 11.2
+
+@include base.mui
+
+_divideline-[1-7]
+	type=2
+	color=#ffffff
+	opacity=50
+	size=2.5,100%
+	anchor=4
+	zindex=2
+	pos=50%-{space}-{space}-{space}${space},150%
+	motion=downward_move_op50_line
+
+_guideline-[1-8]
+	type=2
+	color=#ffffff
+	opacity=25
+	size=1.5,100%
+	anchor=4
+	zindex=2
+	pos=50%-{space}-{space}-{space}-{halfs}${space},-50%
+	motion=upward_move_op25_line
+
+note-[1-6]
+	tex=tap.png
+	tex2=hold.png
+	tex3=hold_end.png
+	tex4=tap_multi.png
+	tex5=tap.png
+	size={notex},{notey}
+	size2={notex},{notey}
+	anchor=4
+	type=2
+	toggle=1+2
+	pos=50%-{space}-{halfs}-{space}${space},720
+	pos2=50%-{space}-{halfs}-{space}${space},{jheight}
+
+judge-[1-6]
+	type=3
+	frame=axiom-perfect/1-30
+	frame2=axiom-good/1-30
+	frame3=axiom-fail/1-30
+	frame4=axiom-none/1-30
+	interval=16.67
+	size={space},{space}
+	anchor=4
+	zindex=24
+	opacity=100
+	pos=50%-{space}-{space}-{halfs}${space},{jheight}
+
+hit-[1-6]
+	frame=axiom-none/1-30
+	frame2=axiom-perfect/6-25
+	frame3=axiom-perfect/25-30
+	size={holdhitspace},{holdhitspace}
+	interval=16.67
+	anchor=4
+	zindex=24
+	opacity=100
+	pos=50%-{space}-{space}-{halfs}${space},{jheight}
+
+press-[1-6]
+	frame=pressdown/1-1
+	frame2=pressdown/1-15
+	size={halfs}-15,720-{jheight}
+	interval=16.67
+	anchor=7
+	pos=50%-{space}-{space}-{halfs}${space},{jheight}
+	zindex=9
+	opacity=0
+	motion=show_press
+
+key-[1-6]
+	tex=axiom-none-1.png
+	size=0,2
+	anchor=3
+	zindex=150
+	opacity=60
+	pos=35,60%-{keywid}-{keywid}-{keywid}-25${keywid}+10
+
+key-1
+	tex2=axiom-texture-I-Up.png
+
+key-2
+	tex2=axiom-texture-II-Down.png
+
+key-3
+	tex2=axiom-texture-III-Top.png
+
+key-4
+	tex2=axiom-texture-IV-Bottom.png
+
+key-5
+	tex2=axiom-texture-V-Strange.png
+
+key-6
+	tex2=axiom-texture-VI-Charm.png
+
+touch
+	type=1
+	rect1=50%-{space}-{space}-{space}-{halfs},0,{space}+{halfs},100%
+	rect2=50%-{space}-{space},0,{space},100%
+	rect3=50%-{space},0,{space},100%
+	rect4=50%,0,{space},100%
+	rect5=50%,{space},{space},100%
+	rect6=50%+{space}+{space},0,{space}+{halfs},100%

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+  "images": [
+    {
+      "name": "50per_block.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/50per_block.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-1.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-1.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-10.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-10.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-11.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-11.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-12.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-12.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-13.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-13.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-14.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-14.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-15.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-15.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-16.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-16.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-17.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-17.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-18.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-18.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-19.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-19.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-2.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-2.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-20.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-20.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-21.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-21.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-22.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-22.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-23.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-23.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-24.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-24.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-25.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-25.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-26.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-26.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-27.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-27.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-28.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-28.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-29.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-29.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-3.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-3.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-30.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-30.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-4.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-4.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-5.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-5.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-6.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-6.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-7.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-7.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-8.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-8.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-none-9.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/none/axiom-none-9.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "none",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": true,
+    "tinifyKey": "0l5xWNcBWV6gNQxWdXmYXpZspMxhWgVB",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+    "width": 90,
+    "height": 40,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 10,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsPacker",
+    "packerMethod": "Smart"
+  }
+}

@@ -1,0 +1,107 @@
+@define space 171
+@define halfs 85.5
+@define notex 136.8
+@define notey 34.2
+@define holdhitspace 12.8
+
+@include base.mui
+
+_divideline-[1-6]
+	type=2
+	color=#ffffff
+	opacity=50
+	size=2.5,100%
+	anchor=4
+	zindex=2
+	pos=50%-{space}-{space}-{halfs}${space},150%
+	motion=downward_move_op50_line
+
+_guideline-[1-7]
+	type=2
+	color=#ffffff
+	opacity=25
+	size=1.5,100%
+	anchor=4
+	zindex=2
+	pos=50%-{space}-{space}-{space}${space},-50%
+	motion=upward_move_op25_line
+
+note-[1-5]
+	tex=tap.png
+	tex2=hold.png
+	tex3=hold_end.png
+	tex4=tap_multi.png
+	tex5=tap.png
+	size={notex},{notey}
+	size2={notex},{notey}
+	anchor=4
+	type=2
+	toggle=1+2
+	pos=50%-{space}-{space}${space},720
+	pos2=50%-{space}-{space}${space},{jheight}
+
+judge-[1-5]
+	type=3
+	frame=axiom-perfect/1-30
+	frame2=axiom-good/1-30
+	frame3=axiom-fail/1-30
+	frame4=axiom-none/1-30
+	interval=16.67
+	size={space},{space}
+	anchor=4
+	zindex=24
+	opacity=100
+	pos=50%-{space}-{space}${space},{jheight}
+
+hit-[1-5]
+	frame=axiom-none/1-30
+	frame2=axiom-perfect/6-25
+	frame3=axiom-perfect/25-30
+	size={holdhitspace},{holdhitspace}
+	interval=16.67
+	anchor=4
+	zindex=24
+	opacity=100
+	pos=50%-{space}-{space}${space},{jheight}
+
+press-[1-5]
+	frame=pressdown/1-1
+	frame2=pressdown/1-15
+	size={halfs}-20,720-{jheight}
+	interval=16.67
+	anchor=7
+	pos=50%-{space}-{space}${space},{jheight}
+	zindex=9
+	opacity=0
+	motion=show_press
+
+key-[1-5]
+	tex=axiom-none-1.png
+	size=0,2
+	anchor=3
+	zindex=150
+	opacity=60
+	pos=35,60%-{halfkeywid}-{keywid}-{keywid}-25${keywid}+10
+
+key-1
+	tex2=axiom-texture-I-Do.png
+
+key-2
+	tex2=axiom-texture-II-Re.png
+
+key-3
+	tex2=axiom-texture-III-Mi.png
+
+key-4
+	tex2=axiom-texture-IV-Sol.png
+
+key-5
+	tex2=axiom-texture-V-La.png
+
+touch
+	type=1
+	rect1=50%-{space}-{space}-{space},0,{space}+{halfs},100%
+	rect2=50%-{space}-{halfs},0,{space},100%
+	rect3=50%-{halfs},0,{space},100%
+	rect4=50%+{halfs},0,{space},100%
+	rect5=50%+{space}+{halfs},0,{space}+{halfs},100%

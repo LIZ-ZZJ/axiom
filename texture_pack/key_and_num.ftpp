@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+  "images": [
+    {
+      "name": "axiom-texture-0.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-0.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-1.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-1.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-10.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-10.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-11.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-11.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-2.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-2.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-3.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-3.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-4.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-4.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-5.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-5.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-6.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-6.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-7.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-7.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-8.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-8.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-9.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-9.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-I-Do.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-I-Do.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-I-La.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-I-La.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-I-Up.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-I-Up.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-II-Down.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-II-Down.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-II-Re.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-II-Re.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-II-Va.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-II-Va.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-III-Mi.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-III-Mi.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-III-Ra.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-III-Ra.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-III-Top.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-III-Top.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-IV-Bottom.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-IV-Bottom.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-IV-Sol.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-IV-Sol.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-IV-Ya.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-IV-Ya.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-V-La.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-V-La.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-V-Strange.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-V-Strange.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-VI-Charm.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-VI-Charm.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-combo.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-combo.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-combo_early-1.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-combo_early-1.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-combo_early-2.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-combo_early-2.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-combo_late-1.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-combo_late-1.png",
+      "folder": ""
+    },
+    {
+      "name": "axiom-texture-combo_late-2.png",
+      "path": "C:/Users/ZZJ/Documents/projects/malody_skin/texture_pack/axiomtex/key and num/axiom-texture-combo_late-2.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "key_and_num",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": true,
+    "tinifyKey": "0l5xWNcBWV6gNQxWdXmYXpZspMxhWgVB",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "C:\\Users\\ZZJ\\Documents\\projects\\malody_skin\\texture_pack",
+    "width": 2300,
+    "height": 2200,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 10,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsPacker",
+    "packerMethod": "Smart"
+  }
+}

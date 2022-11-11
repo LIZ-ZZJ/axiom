@@ -1,0 +1,224 @@
+@version 4.0.0
+@cool key.ogg
+@good key.ogg
+@include texpacks.mui
+@unit 720
+
+@include movement.mui
+@include start.mui
+	
+@define keywid 40
+@define halfkeywid 20
+
+@if <1.8
+@define space 103
+@define halfs 51.5
+@define notex 82.4
+@define notey 20.6
+@define holdhitspace 7.7
+@endif
+
+@if <1.5
+@define space 126
+@define halfs 63.0
+@define notex 100.8
+@define notey 25.2
+@define holdhitspace 9.5
+@endif
+
+_Icon-[1-4]
+	pos=50%,50%
+
+_judgeline
+	type=2
+	pos=50%,50
+	color=#ffffff
+	opacity=30
+	size=100%,2.5
+	anchor=4
+	zindex=2
+	motion=upward_move_op100_judgeline
+
+_background
+	type=2
+	color=#000000
+	opacity=10
+	size=200%,200%
+	anchor=4
+	zindex=1
+	pos=50%,50%
+	motion=op30_background
+
+_background2
+	type=2
+	color=#ffffff
+	opacity=40
+	size=100%,{jheight}
+	anchor=1
+	zindex=11
+	pos=50%,50
+	motion=upward_move_op60_background2
+
+_pause1
+	type=2
+	pos=25,746
+	color=#ffffff
+	opacity=0
+	size=7,27
+	anchor=0
+	zindex=150
+	motion=downward_move_op100_pause
+_pause2
+	type=2
+	pos=39,746
+	color=#ffffff
+	opacity=0
+	size=7,27
+	anchor=0
+	zindex=150
+	motion=downward_move_op100_pause
+
+_name
+	type=2
+	pos=20-200,47+{jheight}
+	color=#ffffff
+	opacity=0
+	size=5,24
+	anchor=0
+	zindex=150
+	motion=rightward_move_op100_name
+
+_songname
+	color=#ffffff
+	type=1
+	text={title}
+	fsize=24
+	opacity=0
+	anchor=0
+	pos=33-200,52+{jheight}
+	zindex=150
+	motion=rightward_move_op100_songname
+
+_diff
+	type=1
+	color=#ffffff
+	text={version}
+	fsize=24
+	anchor=2
+	opacity=0
+	pos=100%-33+200,52+{jheight}
+	zindex=150
+	motion=leftward_move_op100_diff
+
+_combo
+	tex=axiom-texture-combo.png
+	pos=50%,840
+	size=0,24
+	anchor=1
+	zindex=150
+	opacity=0
+	motion=downward_move_op100_combo
+
+score-combo
+	anchor=1
+	frame=axiom-texture/0-9
+	fsize=40
+	pos=50%,905
+	pos2=0.8px,0
+	zindex=150
+	opacity=0
+	motion=downward_move_op100_score_combo
+
+score-score
+	anchor=2
+	frame=axiom-texture/0-9
+	fsize=29
+	pos=100%-23+200,695
+	pos2=0.8px,0
+	zindex=150
+	opacity=0
+	motion=leftward_move_op100_score_acc
+
+score-acc
+	anchor=2
+	frame=axiom-texture/0-11
+	color=#66ccff
+	fsize=20
+	pos=100%-23+200,650
+	pos2=0.8px,0
+	zindex=150
+	opacity=0
+	motion=leftward_move_op100_score_acc
+
+score-hp
+	type=0
+	tex=hp.png
+	anchor=4
+	pos=100%-32+80,55%
+	size=400,20
+	rotate=-90
+	opacity=0
+	motion=leftward_move_op100_score_hp
+	zindex=150
+
+progress
+	tex=50per_block.png
+	type=0
+	pos=-100,720
+	size=100%,7.5
+	anchor=0
+	zindex=150
+	opacity=0
+	motion=rightward_move_op100_progress
+
+pause
+	anchor=0
+	tex=axiom-none-1.png
+	size=70,70
+	pos=0,720
+	zindex=150
+
+hit-fast
+	frame=axiom-texture-combo_early/1-2
+	interval=100
+	pos=50%,640
+	size=0,24
+	anchor=1
+	zindex=150
+
+
+hit-slow
+	frame=axiom-texture-combo_late/1-2
+	interval=100
+	pos=50%,640
+	size=0,24
+	anchor=1
+	zindex=150
+
+bar
+	tex=50per_block.png
+	pos=50%,100%
+	pos2=50%,{jheight}
+	size=1280,2
+	anchor=4
+	zindex=3
+
+musicbar
+	type=0
+	anchor=7
+	pos=50%,0
+	size=80%,50
+	count=200
+	opacity=100
+	zindex=150
+
+score-maxcombo
+	anchor=1
+	color=#66ccff
+	frame=axiom-texture/0-9
+	fsize=20
+	pos=50%,862
+	opacity=0
+	motion=downward_move_op100_max_combo
+	pos2=0.8px,0
+	zindex=150

@@ -1,0 +1,49 @@
+@texpack Tex/Icon
+@define jheight 108
+
+:fade_icon
+    name=fade,from=0,to=100,atime=(-2200,-1200)
+    name=fade,from=100,to=0,atime=(-600,0)
+
+:rotate_1
+    name=fade,from=0,to=100,atime=(-2200,-1200)
+	name=rotate,from=0,to=360,atime=(-1200,200)
+    name=fade,from=100,to=0,atime=(-600,0)
+
+:rotate_2
+    name=fade,from=0,to=100,atime=(-2200,-1200)
+	name=rotate,from=0,to=-720,atime=(-1200,200)
+    name=fade,from=100,to=0,atime=(-600,0)
+:rotate_3
+    name=fade,from=0,to=100,atime=(-2200,-1200)
+	name=rotate,from=0,to=1080,atime=(-1200,200)
+    name=fade,from=100,to=0,atime=(-600,0)
+
+_Icon-[1-4]
+	anchor=4
+	type=0
+	size=0,40%
+
+_Icon-1
+	tex=Icon-1.png
+	zindex=165
+	opacity=0
+	motion=fade_icon
+
+_Icon-2
+	tex=Icon-2.png
+	zindex=164
+	opacity=0
+	motion=rotate_1
+
+_Icon-3
+	tex=Icon-3.png
+	zindex=163
+	opacity=0
+	motion=rotate_2
+
+_Icon-4
+	tex=Icon-4.png
+	zindex=162
+	opacity=0
+	motion=rotate_3
